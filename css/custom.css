@@ -33,6 +33,13 @@
     padding: 20px; /* Some padding */
 }
 
+.space {
+    margin-bottom: 100px;
+}
+
+.row {
+    margin-top: 50px;
+}
 #parent {height: 250px;}
 #floater {
     float: left;
