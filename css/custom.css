@@ -24,6 +24,15 @@
     width: 250px;
 }
 
+.content {
+    position: absolute; /* Position the background text */
+    top: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 43%; /* Full width */
+    padding: 20px; /* Some padding */
+}
+
 #parent {height: 250px;}
 #floater {
     float: left;
